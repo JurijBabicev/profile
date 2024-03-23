@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d5dae4;
+}
+
+.header {
+  color: #283d5b;
+}
+
+.footer {
+  color: #283d5b;
+}
+
+.my-info {
+  color: #4b7bb2;
+}
+
+a:link {
+  text-decoration: none;
+  color: #4b7bb2;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #4b7bb2;
+}
+
+.box-center {
+  width: 34%;
+  min-width: 300px;
+  max-width: 700px;
+  /* height: auto; */
+  text-align: center;
+  padding: 2%;
+  margin: 0 auto 20px auto;
+  background-color: #ffffff6e;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 0 27px #00000030;
+}
+
+.user-logo {
+  border: 0;
+  border-radius: 50%;
+}
+
+.user-button {
+  display: inline-block;
+  width: 145px;
+  height: 26px;
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid #4b7bb2;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.user-button:hover {
+  width: 200px;
+  border-radius: 25px;
+  background-color: #d6e5e597;
+  box-shadow: 0 0 5px gray;
+}
+
+
+ul {
+  padding-inline-start: 0px;
+}
+
+li {
+  display: inline;
+  padding-left: 0;
+}
+
+.ico-link {
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: 0.7s;
+}
+
+.ico-link:hover {
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #4078b8;
+}
