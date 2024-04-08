@@ -7,30 +7,103 @@
   <title>JurijBabicev</title>
 </head>
 <body>
+  <div class="content">
+
+    <div class="header-buttons">
+      <ul>
+        <li>My Road Map</li>
+        <li onClick="about_me()">About Me</li>
+        <li onClick="fallow_me()">Fallow Me</li>
+      </ul>
+    </div>
+
+    <div class="box-center">
+      <div>
+
+        <div class="left-side">
+          <h1 class="header">Hello, my name Jurij</h1>
+          <div class="user-logo"></div>
+          <p class="my-info">I'm Junior Full-Stack WEB Developer</p>
+        </div>
+
+        <div class="right-side">
+
+          <!-- About Me  -->
+          <div class="about-me">
+            <div class="me-header">ABOUT ME</div>
+          <p> &nbsp;&nbsp;My career as a WEB developer began with books and self-study. This let me to understand what I need to do to be a professional.</p>
+          <p> &nbsp;&nbsp;I'm graduated from Weston College and gained level 3 in software development.</p>
+          <p> &nbsp;&nbsp;Immediately after graduating from college, I was hired for the position of “Junior PHP Developer” at Rakata Technologies,
+            where they quickly assessed my potential in front-end development, namely in design and User Interface (UI) and User Experience (UX).</p>
+          </div>
+          <!-- end  -->
+
+          <div class="fallow-me">
+            <div class="me-header">Fallow Me</div>
+            <div>
+              <ul>
+                <li>
+                  <a href="https://github.com/JurijBabicev?tab=repositories" target="_blank">
+                    <img src="./images/icons8-github-48.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/jurij-babicev-60861b183/" target="_blank">
+                    <img src="./images/icons8-linkedin-48.png" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/jurijbabicev/" target="_blank">
+                    <img src="./images/icons8-instagram-48.png" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="box-center" style="text-align: left;">
+      <table>
+        <tr>
+          <td id="my-legend-box">
+            <div class="my-legend">
+              <p><span id="tag-seven"></span><br />
+                &nbsp;&nbsp;<span id="tag-one"></span>When I was 10 years old, I discovered the world of variables, loops, and magic that turned commands into actions.<span id="tag-two"></span></p>
+              <p>&nbsp;&nbsp;<span id="tag-three"></span>I've come a long way since then, and computer technology has changed too.<span id="tag-four"></span></p>
+              <p>&nbsp;&nbsp;<span id="tag-five"></span>But just like many years ago, this magic has become an integral part of me. I want to know more, be able to do better and create what I couldn't create yesterday.<span id="tag-six"></span></p>
+            </div>
+          </td>
+          <td>
+            <div class="code-syntax">
+              <code id="code-example" style="font-size: 14px;">
+                test
+              </code>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  
 
   <div class="box-center">
-    <h1 class="header">Hello, my name Jurij</h1>
-    <img src="https://media.licdn.com/dms/image/C4D03AQHC7uwsReSJjQ/profile-displayphoto-shrink_400_400/0/1590828483184?e=1716422400&v=beta&t=nO35F2-_9hLjpiDMJ0J4lgUMhctx02UsJX6nmPw6vaA" width="100px" alt="Jurij Babicev" class="user-logo" />
-    <p class="my-info">I'm Junior Full-Stack WEB Developer</p>
-    <a href="#" class="user-button">More about me</a>
+    <div class="teh-stack">
+      <ul>
+        <li onmouseover="show_syntax('html')" onmouseout="clear_syntax()">HTML5</li>
+        <li onmouseover="show_code_box();show_syntax('css')" onmouseout="clear_syntax()">CSS3</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>PHP</li>
+        <li>SQL</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="box-center">
-    <h2 class="footer">Fallow me</h2>
-    <ul>
-      <a href="#" target="_blank">
-        <li><img src="images/icons8-github-48.png" alt="Github logo" class="ico-link" /></li>
-      </a>
+</div>
 
-      <a href="#" target="_blank">
-        <li><img src="images/icons8-linkedin-48.png" alt="Linkedin logo" class="ico-link" /></li>
-      </a>
-
-      <a href="#" target="_blank">
-        <li><img src="images/icons8-instagram-48.png" alt="Instagram logo" class="ico-link"/></li>
-      </a>
-    </ul>
-  </div>
+  <script src="./js/index.js" type="text/javascript"></script>
 
 </body>
 </html>
